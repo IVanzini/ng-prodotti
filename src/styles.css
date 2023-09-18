@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background-color: beige;
+}
+h1 {
+    text-align: center;
+}
+.box {
+    border: 2px solid black;
+    background-color: white;
+    margin: 5px;
+    padding: 5px;
+}
