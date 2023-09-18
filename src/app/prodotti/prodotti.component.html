@@ -1,0 +1,10 @@
+<div class="box" *ngFor="let prodotto of prodotti">
+    <ol>
+    <h3>Id: {{prodotto.id}}</h3>
+    <h3>Title: {{prodotto.title}}</h3>
+    <h3>Price: {{prodotto.price}}$</h3>
+    <h3>Description: {{prodotto.description}}</h3>
+    <h3>Category: {{prodotto.category | uppercase}}</h3>
+    <img *ngIf="prodotto.rating.rate >>= 3" [src]="prodotto.image" alt="">
+    </ol>
+</div>
